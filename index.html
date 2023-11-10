@@ -34,6 +34,43 @@
             </tbody>
         </table>
     </form>
+
+    <hr size="8" width="80%">
+
+    <form method="post" action="deletar.php">
+        <table>
+            <th>DELETAR</th>
+            <tbody>
+                <tr>
+                    <td>Digite o registro do dado para apagar: </td>
+                    <td><input type="number" name="registro" min="1"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="APAGAR DADO"></td>
+                    <td><input type="reset" value="LIMPAR"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <form method="post" action="listar.php">
+        <table>
+            <th>LISTAR</th>
+            <tbody>
+                <tr>
+                    <td>
+                        <h1>Clique no botão abaixo pra mostrar os dados do BD</h1>
+                    </td>
+                </tr>
+                <tr>   
+                    <td>
+                        <input type="submit" value="LISTAR">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
     </div>
 </body>
 </html>
