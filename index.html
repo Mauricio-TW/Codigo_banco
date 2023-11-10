@@ -43,7 +43,7 @@
             <tbody>
                 <tr>
                     <td>Digite o registro do dado para apagar: </td>
-                    <td><input type="number" name="registro" min="1"></td>
+                    <td><input type="number" name="registro" min="0" required></td>
                 </tr>
                 <tr>
                     <td><input type="submit" value="APAGAR DADO"></td>
@@ -70,6 +70,25 @@
             </tbody>
         </table>
     </form>
+
+    <hr size="8" width="80%">
+
+    <form method="post" action="atualizar.php">
+        <table>
+            <th>ATUALIZAR</th>
+            <tbody>
+                <tr>
+                    <td>Digite o registro do dado para atualizar: </td>
+                    <td><input type="number" name="registro" min="0" required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="ATUALIZAR DADO"></td>
+                    <td><input type="reset" value="LIMPAR"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
 
     </div>
 </body>
